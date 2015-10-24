@@ -11,7 +11,7 @@ public class NumericApproachTest {
 	@Test
 	public void prettifyNumberTest() {
 		String s = cross.prettifyNumber(585L);
-		assertEquals("5856", s);
+		assertEquals("585", s);
 		s = cross.prettifyNumber(1_000_000L);
 		assertEquals("1M", s);
 		s = cross.prettifyNumber((long) 2_500_000.34D);
