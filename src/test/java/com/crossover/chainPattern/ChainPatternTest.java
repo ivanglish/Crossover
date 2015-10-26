@@ -28,7 +28,7 @@ public class ChainPatternTest {
 		
 		request.setNumber(585L);
 		supportService.handleRequest(request);
-		assertEquals("5845", request.getPrettifiedNumber());
+		assertEquals("585", request.getPrettifiedNumber());
 		
 		request.setNumber(999_999L);
 		supportService.handleRequest(request);
